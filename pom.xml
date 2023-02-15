@@ -196,7 +196,7 @@
 								<provider>${env.RTF_PROVIDER}</provider>
 								<replicas>${env.REPLICAS}</replicas>
 								<businessGroupId>${project.groupId}</businessGroupId>
-								<skipDeploymentVerification>${env.RTF_SKIP_DEPLOY_VERIFY}</skipDeploymentVerification>
+								<skipDeploymentVerification>${env.SKIP_DEPLOY_VERIFY}</skipDeploymentVerification>
 								<connectedAppClientId>${env.CONNECTED_APP_CLIENT_ID}</connectedAppClientId>
 								<connectedAppClientSecret>${env.CONNECTED_APP_CLIENT_SECRET}</connectedAppClientSecret>
 								<connectedAppGrantType>client_credentials</connectedAppGrantType>
