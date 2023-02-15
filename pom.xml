@@ -208,10 +208,11 @@
 								<provider>${env.RTF_PROVIDER}</provider>
 								<replicas>${env.REPLICAS}</replicas>
 								<businessGroupId>${project.groupId}</businessGroupId>
+								<server>anypoint-exchange-v3</server>
 								<skipDeploymentVerification>${env.SKIP_DEPLOY_VERIFY}</skipDeploymentVerification>
-								<connectedAppClientId>${env.CONNECTED_APP_CLIENT_ID}</connectedAppClientId>
+								<!-- <connectedAppClientId>${env.CONNECTED_APP_CLIENT_ID}</connectedAppClientId>
 								<connectedAppClientSecret>${env.CONNECTED_APP_CLIENT_SECRET}</connectedAppClientSecret>
-								<connectedAppGrantType>client_credentials</connectedAppGrantType>
+								<connectedAppGrantType>client_credentials</connectedAppGrantType> -->
 								<deploymentSettings>
 										<enforceDeployingReplicasAcrossNodes>${env.ENFORCE_REPLICAS_ACROSS_NODES}</enforceDeployingReplicasAcrossNodes>
 										<updateStrategy>${env.UPDATESTRATEGY}</updateStrategy>
@@ -238,9 +239,9 @@
 									<anypoint.platform.config.analytics.agent.header_injection.disabled>${env.ANYPOINT_ANALYTICS_AGENT_HEADER_INJECTION_DISABLED}</anypoint.platform.config.analytics.agent.header_injection.disabled>
 								</properties>
 								<secureProperties>
-									<anypoint.platform.client_id>${env.ANYPOINT_ENV_CLIENT_ID}</anypoint.platform.client_id>
-									<anypoint.platform.client_secret>${env.ANYPOINT_ENV_CLIENT_SECRET}</anypoint.platform.client_secret>								
-									<secure.key>${env.SECRET_ENV_KEY}</secure.key>						
+									<anypoint.platform.client_id>${anypoint.env.clientId}</anypoint.platform.client_id>
+									<anypoint.platform.client_secret>${anypoint.env.clientSecret}</anypoint.platform.client_secret>								
+									<secure.key>${secret.key}</secure.key>						
 								</secureProperties>								
 							</runtimeFabricDeployment>
 						</configuration>
