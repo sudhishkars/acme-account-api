@@ -1,5 +1,5 @@
 @Library('ms-lib')_
-rtf-pipeline(
+rtfPipeline(
 
     projectName: "account-api",
 
