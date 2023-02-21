@@ -1,4 +1,4 @@
-@Library('ms-lib')_
+@Library('ms-lib', "acme-lib")_
 rtfPipeline(
 
     projectName: "account-api",
