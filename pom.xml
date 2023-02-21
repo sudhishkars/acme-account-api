@@ -234,7 +234,8 @@
 									<mule.env>${env.MULE_ENV}</mule.env>
 									<anypoint.platform.visualizer.layer>${anypoint.visualizer.layer}</anypoint.platform.visualizer.layer>
 									<anypoint.platform.visualizer.tags>${anypoint.visualizer.tags}</anypoint.platform.visualizer.tags>
-									<api.name>${project.name}</api.name>									
+									<api.name>${project.name}</api.name>		
+									<api.id>18435052</api.id>							
 									<project.version>${project.version}</project.version>
 									<anypoint.platform.config.analytics.agent.header_injection.disabled>${env.ANYPOINT_ANALYTICS_AGENT_HEADER_INJECTION_DISABLED}</anypoint.platform.config.analytics.agent.header_injection.disabled>
 								</properties>
