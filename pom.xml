@@ -200,7 +200,7 @@
 						<configuration>
 							<classifier>mule-application</classifier>
 							<runtimeFabricDeployment>
-								<uri>https://anypoint.mulesoft.com</uri>
+								<uri>${env.ANYPOINT_URI}</uri>
 								<muleVersion>${env.MULE_VERSION}</muleVersion>
 								<applicationName>${env.APP_NAME}</applicationName>
 								<target>${env.RTF_CLUSTER_NAME}</target>
