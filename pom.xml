@@ -203,7 +203,7 @@
 								<uri>${env.ANYPOINT_URI}</uri>
 								<muleVersion>${env.MULE_VERSION}</muleVersion>
 								<applicationName>${env.APP_NAME}</applicationName>
-								<target>${env.RTF_CLUSTER_NAME}</target>
+								<target>${rtf.cluster}</target>
 								<environment>${env.ANYPOINT_ENV}</environment>
 								<provider>${env.RTF_PROVIDER}</provider>
 								<replicas>${env.REPLICAS}</replicas>
