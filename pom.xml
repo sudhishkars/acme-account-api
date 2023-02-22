@@ -238,10 +238,10 @@
 									<api.id>18435052</api.id>							
 									<project.version>${project.version}</project.version>
 									<anypoint.platform.config.analytics.agent.header_injection.disabled>${env.ANALYTICS_AGENT_HEADER_INJECTION_DISABLED}</anypoint.platform.config.analytics.agent.header_injection.disabled>
-								</properties>
-								<secureProperties>
 									<anypoint.platform.client_id>${anypoint.env.clientId}</anypoint.platform.client_id>
 									<anypoint.platform.client_secret>${anypoint.env.clientSecret}</anypoint.platform.client_secret>								
+								</properties>
+								<secureProperties>
 									<secure.key>${secret.key}</secure.key>	
 									<db.password>test123</db.password>		
 								</secureProperties>								
