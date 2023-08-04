@@ -12,7 +12,7 @@
 	<!-- <groupId>ac2ba1fb-3c45-4795-9e80-742f003efa18</groupId> -->
 
 	<artifactId>account-api-impl</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>1.0.2</version>
 	<packaging>mule-application</packaging>
 
 	<name>account-api</name>
