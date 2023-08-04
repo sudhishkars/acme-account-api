@@ -106,9 +106,9 @@ output application/json
         </error-handler>
     </flow>
     <flow name="post:\account:application\json:account-api-config">
-        <logger level="INFO" doc:name="Logger" doc:id="4340350a-1e36-4ebe-b3c5-e774d8c79240" />
-		<logger level="INFO" doc:name="Logger" doc:id="2c332343-59a7-4484-a0e7-2fa5e2fff436" message="${db.password}"/>
-        <logger level="INFO" doc:name="Logger" doc:id="2c332343-59a7-4484-a0e7-2fa5e2fff436" message="${secure.key}"/>
+        <logger level="INFO" doc:name="Logger1" doc:id="4340350a-1e36-4ebe-b3c5-e774d8c79240" />
+		<logger level="INFO" doc:name="Logger2" doc:id="2c332343-59a7-4484-a0e7-2fa5e2fff436" message="${db.password}"/>
+        <logger level="INFO" doc:name="Logger3" doc:id="2c332343-59a7-4484-a0e7-2fa5e2fff436" message="${secure.key}"/>
 		<logger level="INFO" message="post:\account:application\json:account-api-config" />
 		<set-variable value='#[(vars.outboundHeaders default {}) ++{headerName:"value"}]' doc:name="Set Variable" doc:id="20f76132-4fc5-4e0b-8d83-05981428dc86" variableName="outboundHeaders"/>
     </flow>
